@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    scroll-behavior: smooth;
+}
+
+p {
+    width: 80%;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    text-align: justify;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#back-btn {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: #f00;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.25s ease-in-out /* Back Button Animation*/
+}
+
+.fa-chevron-up {
+    background-color: #f00;
+}
